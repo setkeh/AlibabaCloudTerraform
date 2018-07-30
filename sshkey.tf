@@ -5,5 +5,5 @@ resource "alicloud_key_pair" "workstationkey" {
 
 resource "alicloud_key_pair" "laptopkey" {
   key_name   = "laptopkey"
-  public_key = ""
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCsNENcB0+OZPFu0lKpUnDrNBLhstF+bQ+L5mnbglSb+qtd/ssogiTeXkQ+EkGN7ZN5c45A22IqriIp1qvvoygwFHxJQ5rDALrk4QiAZoztpGfoCwMQHvmg1jVGhVE9Rz/mxj8iGmQBZNIjMi1A3vqLK+OAmjdECGRqMWWHDLIZJrdTq8I9piP27Yk2/0wBLrKi6sLnW4355BtXjMe1nM8bWKBPBTG0v4WTJtgMqs/+sfnhT+XkbWp5SlAhfxu42KTSZOt55O4Q+PP5RNDE2So/H4ge00gK8dzVsHmbFUYBWxKTAxzzzsBQxlL+Q/NS39Cy6ykEvyupbzGgkg8Eghkl SETKEH"
 }

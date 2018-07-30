@@ -1,7 +1,7 @@
 resource "alicloud_instance" "testinstance1_ecs" {
   availability_zone          = "${var.az-sydney}"
   security_groups            = ["${alicloud_security_group.bananaman_sg.id}"]
-  key_name                   = "workstationkey"
+  key_name                   = "laptopkey"
   internet_max_bandwidth_in  = 200
   internet_max_bandwidth_out = 100
   system_disk_size           = 100
@@ -19,7 +19,7 @@ resource "alicloud_instance" "testinstance1_ecs" {
 resource "alicloud_instance" "testinstance2_ecs" {
   availability_zone          = "${var.az-sydney}"
   security_groups            = ["${alicloud_security_group.bananaman_sg.id}"]
-  key_name                   = "workstationkey"
+  key_name                   = "laptopkey"
   internet_max_bandwidth_in  = 200
   internet_max_bandwidth_out = 100
   system_disk_size           = 100
